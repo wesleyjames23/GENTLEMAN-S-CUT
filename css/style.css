@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: grid;
+  place-items: center;
+}
+
+.main-nav {
+  text-align: center;
+}
+
+.header {
+  display: grid;
+  place-items: center;
+  background-image: url(../img/hero.jfif);
+  background-size: 90% 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.logo {
+  color: rgb(230, 189, 115);
+  font-size: clamp(3rem, 10vw, 7rem);
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-list {
+  list-style: none;
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+}
+
+.list {
+  text-decoration: none;
+  color: white;
+}
+
+/* cuts/reservation section */
+
+.reservation-box,
+.cuts-box {
+  margin: 6rem 1rem;
+}
+
+/* cuts */
+
+.cuts-reservation-sec {
+  background-color: black;
+}
+
+.cuts-reservation-container {
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+}
+
+.cuts-reser-text {
+  text-align: center;
+  color: rgb(230, 189, 115);
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  margin-bottom: 1rem;
+}
+
+/* cuts */
+
+.list-cut {
+  color: white;
+  text-align: center;
+  list-style: none;
+  font-size: clamp(0.9rem, 4vw, 2rem);
+  line-height: 2;
+}
+
+/* border line */
+.border-line {
+  border: 1px solid rgb(230, 189, 115);
+  width: 1px;
+  height: 25rem;
+  margin: 6rem 0rem;
+}
+
+/* reservation */
+
+.name-text {
+  color: white;
+  font-size: clamp(0.5rem, 4vw, 2rem);
+}
+
+.form-box {
+  text-align: center;
+}
+
+.input-text {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.1rem 0.1rem;
+}
+
+.sumbit-btn {
+  padding: 0rem 2rem;
+  text-transform: uppercase;
+  margin: 1rem 0rem;
+  font-size: clamp(0.8rem, 4vw, 1.2rem);
+  background-color: rgb(230, 189, 115);
+  border-radius: 0.2rem;
+  border: none;
+  color: white;
+}
+
+/* footer-social */
+.social-footer {
+  /* background-image: url(../img/black.jpg);
+  background-size: cover; */
+  background-color: rgb(230, 189, 115);
+}
+
+.social-box {
+  padding: 0.1rem;
+  text-align: center;
+}
+
+.social-text {
+  font-size: 0.8rem;
+  color: rgb(71, 71, 71);
+}
+
+.links {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}

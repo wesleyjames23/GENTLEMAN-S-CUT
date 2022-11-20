@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>Gentleman's Cut</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <nav class="main-nav">
+          <div class="logo">
+            Gentleman's Cut
+            <ion-icon class="icon-logo" name="cut-outline"></ion-icon>
+          </div>
+          <ul class="nav">
+            <li class="nav-list"><a class="list" href="#">Haircut</a></li>
+            <li class="nav-list"><a class="list" href="#">Reservation</a></li>
+            <li class="nav-list"><a class="list" href="#">Social</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- cuts/reservation section -->
+    <section class="cuts-reservation-sec">
+      <div class="cuts-reservation-container">
+        <div class="cuts-box">
+          <h2 class="cuts-reser-text">Haircut</h2>
+          <ul>
+            <li class="list-cut">Men's Cut-200</li>
+            <li class="list-cut">Kid's Cut-100</li>
+            <li class="list-cut">Shave Cut-250</li>
+            <li class="list-cut">Eyebrow Cut-100</li>
+            <li class="list-cut">Art's Cut-300</li>
+            
+          </ul>
+        </div>
+
+        <div class="border-line"></div>
+
+        <div class="reservation-box">
+          <h2 class="cuts-reser-text">Reservation</h2>
+          <form class="form-box">
+          <label action="/action_page.php">
+            <label class="name-text" for="fname">First name</label><br>
+            <input class="input-text" type="text" id="fname" name="fname" /><br>
+            <label class="name-text" for="lname">Last name</label><br>
+            <input class="input-text"  type="text" id="lname" name="lname"><br>
+            <label class="name-text" for="date">Date</label><br>
+            <input class="input-text"  type="date" id="date" name="date"><br>
+            <label class="name-text" for="Time">Time</label><br>
+            <input class="input-text"  type="time" id="time" name="time"><br>
+            <input class="sumbit-btn" type="submit" value="submit">
+          </form>
+        </div>
+      </div>
+      <footer class="social-footer">
+        <div class="social-box">
+  <h2 class="social-text">Reach us at:</h2>
+        <a class="links" href="#"> <ion-icon class="icon" name="logo-instagram"></ion-icon></a>
+        <a class="links" href="#"><ion-icon class="icon" name="logo-twitter"></ion-icon> </a>
+        <a class="links" href="#"><ion-icon class="icon" name="logo-facebook"></ion-icon> </a>
+      </div>
+      </footer>
+
+    </section>
+  
+  </body>
+</html>
